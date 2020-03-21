@@ -1,0 +1,10 @@
+.hello {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.changer {
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+}
