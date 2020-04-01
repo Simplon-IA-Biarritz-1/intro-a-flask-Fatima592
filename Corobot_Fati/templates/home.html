@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Direct coronavirus info</title>
+        <link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+
+    <body>
+        <h1>Une question ?<br></h1>
+        <p>Sans perdre de temps, je t'invinte à échanger via notre chat avec COROBOT</p>
+        <div class="corobot">
+            <p>
+                <span>Bonjour, <br>Je suis Corobot, votre informateur spécialiste Covid-19. Comment puis-je vous renseigner ?<br><br>Pour quitter le chat, écrivez quit ")
+                </span>
+            </p>
+        </div>
+        <div class="phrase_user">
+            <form action="." method="POST">
+                <input type="text" name="username">
+                <button type="submit">OK</button>
+            </form> 
+        </div>
+    
+    </body>
+</html>

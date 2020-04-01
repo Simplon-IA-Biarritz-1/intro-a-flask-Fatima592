@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Espace personnel</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='main.css')}}">
+    </head>
+    <body>
+        <div class="nav_bar">
+            <ul>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+            </ul>
+        </div>
+        <div class="outer_div">
+            <div class="inner_div">
+                <h1>Bonjour {{message}}, 
+                    <br>ravi de vous revoir
+                </h1>
+            </div>
+        </div>
+        <p class="past_next">
+            <a href="{{url_for('home')}}">Retourner à la page d'accueil</a>
+        </p>
+
+    </body>
+</html>

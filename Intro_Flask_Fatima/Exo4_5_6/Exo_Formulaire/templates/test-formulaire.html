@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page d'accueil</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+        <div class="nav_bar">
+            <ul>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+            </ul>
+        </div>
+        <div class="outer_div">
+            <div class="inner_div">
+                <h1>Bonjour et bienvenue</h1>
+                <p>
+                    Afin de vous proposer le meilleur des services,
+                    <br>je vous invite à vous authentifier :
+                </p>
+                <div class="inner_div2">
+                    <form action="." method="POST">
+                        <div class="checkbox">    
+                            <fieldset>
+                                <legend><h4>Votre genre</h4></legend>
+                                <input type="checkbox" name="Monsieur" value="Monsieur">
+                                <label for="Monsieurs">Monsieur</label>
+                                <br>
+                                <br>
+                                <input type="checkbox" name="Madame" value="Madame">
+                                <label for="Madame">Madame</label>
+                                <br>
+                                <br>
+                            </fieldset>
+                        </div>
+                        <div class="identifant">
+                            <fieldset>
+                                <legend><h4>Vos identifants</h4></legend>
+                                <label for="nom">Votre noms :</label>
+                                <input type="text" name="nom" id="nom" placeholder="Ex : brioit" required/>
+                                <br>
+                                <br>
+                                <label for="prenom">Votre prénom :</label>
+                                <input type="text" name="prenom" id="prenom" placeholder="Ex : hector" required/>
+                                <br>
+                                <br>
+                                <label for="pseudo">Votre pseudo :</label>
+                                <input type="text" name="pseudo" id="pseudo" placeholder="Ex : totorb5632" required/>
+                                <br>
+                                <br>
+                            </fieldset>
+                            <br>
+                            <div class="click">
+                                <button type="submit">Entrer</button>
+                            </div>
+                        </div>
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
